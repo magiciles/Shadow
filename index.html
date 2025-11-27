@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shadow Messenger</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #000; 
+            color: white; 
+            font-family: -apple-system, sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            text-align: center;
+        }
+        .container {
+            background: rgba(0,0,0,0.9);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255,255,255,0.2);
+            font-size: 40px;
+        }
+        h1 { 
+            font-size: 32px; 
+            margin-bottom: 20px; 
+            font-weight: 700; 
+        }
+        .id { 
+            font-size: 24px; 
+            font-family: monospace; 
+            color: #8b5cf6; 
+            margin: 20px 0; 
+            background: rgba(139, 92, 246, 0.1);
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid rgba(139, 92, 246, 0.2);
+        }
+        button {
+            background: white;
+            color: black;
+            border: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+        }
+        button:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">👤</div>
+        <h1>Welcome to Shadow</h1>
+        <div class="id">Shadow#8421</div>
+        <button>Enter Shadow</button>
+        <p style="margin-top: 30px; font-size: 12px; color: #666;">
+            Анонимный мессенджер
+        </p>
+    </div>
+</body>
+</html>
